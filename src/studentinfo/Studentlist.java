@@ -24,6 +24,8 @@ public class Studentlist {
             studList[i]=new Student();
             System.out.println("Enter student name: ");
             studList[i].setName(sc.nextLine());
+            System.out.println("Enter address: ");
+            studList[i].setAddress(sc.nextLine());
         
         
         }
