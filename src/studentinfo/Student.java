@@ -9,6 +9,9 @@ public class Student {
     private String name;
     private String address;
 
+    private String progName;
+
+
     public Student(){}
     public Student(String name) {
         this.name = name;
@@ -28,6 +31,20 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    /**
+     * @return the progName
+     */
+    public String getProgName() {
+        return progName;
+    }
+
+    /**
+     * @param progName the progName to set
+     */
+    public void setProgName(String progName) {
+        this.progName = progName;
     }
     
 
