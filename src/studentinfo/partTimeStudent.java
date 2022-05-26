@@ -10,6 +10,7 @@ package studentinfo;
  */
 public class partTimeStudent {
     private int numOfCourses;
+    private double passingMark;
 
     /**
      * @return the numOfCourses
