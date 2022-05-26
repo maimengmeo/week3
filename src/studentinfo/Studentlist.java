@@ -32,7 +32,9 @@ public class Studentlist {
         System.out.println("Student List");
         for(Student s1:studList)
         {
-            System.out.print(s1.getName());
+            System.out.print("Student Name: " + s1.getName());
+            System.out.print(" ");
+            System.out.print("Student Address: " + s1.getAddress());
             System.out.print(" ");
         }
         
